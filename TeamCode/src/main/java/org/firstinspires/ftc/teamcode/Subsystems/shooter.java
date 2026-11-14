@@ -8,11 +8,11 @@ import com.qualcomm.robotcore.hardware.HardwareMap;
 public class shooter {
 
     // ---------- Main shooter settings ----------
-    private static final String MAIN_MOTOR_NAME = "shooter";        // name in the Robot Configuration
-    private static final Direction MAIN_DIRECTION = Direction.REVERSE; // flip to REVERSE if it spins the wrong way
+    private static final String MAIN_MOTOR_NAME = "shooter";
+    private static final Direction MAIN_DIRECTION = Direction.REVERSE;
     private static final double MAIN_POWER = 1.0;                   // 0..1
 
-    private static final String MIDDLE_MOTOR_NAME = "middleShooter"; // name in the Robot Configuration
+    private static final String MIDDLE_MOTOR_NAME = "middleShooter"; //
     private static final Direction MIDDLE_DIRECTION = Direction.FORWARD;
     private static final double MIDDLE_POWER = 1.0;                 // 0..1
 
@@ -30,7 +30,6 @@ public class shooter {
 
         for (DcMotor m : new DcMotor[]{mainMotor, middleMotor}) {
             m.setMode(DcMotor.RunMode.RUN_WITHOUT_ENCODER);
-            // FLOAT = coasts to a stop. Change to BRAKE to stop immediately.
             m.setZeroPowerBehavior(DcMotor.ZeroPowerBehavior.FLOAT);
         }
     }
