@@ -17,7 +17,7 @@ public class intake {
     }
 
     public void update() {
-        motor.setPower(on ? 1.0 : 0);
+        motor.setPower(on ? 1. : 0);
     }
 
     public boolean isOn() { return on; }
