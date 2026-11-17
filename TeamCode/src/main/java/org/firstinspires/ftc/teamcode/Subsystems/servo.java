@@ -5,7 +5,6 @@ import com.qualcomm.robotcore.hardware.Servo;
 
 public class servo {
 
-    // ---------- Settings ----------
     private static final String SERVO_NAME = "servo";
     private static final double POSITION_OFF = 0.0;
     private static final double POSITION_ON = 1.0;
