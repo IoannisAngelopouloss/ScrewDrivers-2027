@@ -2,7 +2,7 @@
 
 ### FIRST Tech Challenge 2026–2027
 
-Welcome to the official GitHub repository of **Screwdivers FTC**.
+Welcome to the official GitHub repository of **Screwdivers FTC** for the BIOBUZZ season.
 
 This repository contains our team's robot code, including autonomous programs, TeleOp controls, and robot mechanisms.
 
